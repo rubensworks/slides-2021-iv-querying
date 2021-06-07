@@ -33,7 +33,7 @@
     </header>
 
     <section id="title" class="slide title" inlist="" rel="schema:hasPart" resource="#title">
-      <h2 property="schema:name">De Toekomst van Web Querying</h2>
+      <h2 property="schema:name">De Toekomst van<br \>Web Querying</h2>
       <ul class="author inline">
           <li class="current"><a href="https://www.rubensworks.net/">Ruben Taelman</a></li>
       </ul>
@@ -41,26 +41,64 @@
     </section>
 
     <section id="start" class="slide" style="background-image: url('img/diamond.jpg')" inlist="" rel="schema:hasPart" resource="#start">
-        <h2 property="schema:name" class="big" style="margin-top: 20px; color: white; text-shadow: 2px 2px black">Linked Data Queryen op the Web<br />is een veelzijdig verhaal</h2>
+        <h2 property="schema:name" class="big" style="margin-top: 20px; color: white; text-shadow: 2px 2px black">Linked Data publicatie op the Web<br />is een veelzijdig verhaal</h2>
         <ul style="color: white; text-shadow: 2px 2px black; font-size: 1.3em">
-            <li>Query talen en uitbreidingen</li>
-            <li>Publicatie technieken</li>
-            <li>Query algoritmen</li>
+            <li>Linked Data Event Streams</li>
+            <li>Linked Data documenten</li>
+            <li>SPARQL endpoints</li>
+            <li>TPF interfaces</li>
             <li>...</li>
         </ul>
+    </section>
+    
+    <section id="start-problems" class="slide" inlist="" rel="schema:hasPart" resource="#start-problems">
+      <h2 property="schema:name">Veelzijdigheid veroorzaakt moeilijkheden voor client-side app ontwikkelaars</h2>
+      <ul>
+          <li class="next">
+          	  <h3>Onderscheiden van APIs</h3>
+			  <span class="indent">Welk soort API is dit?</span>
+          </li>
+          <li class="next">
+          	  <h3>Bevragen van APIs</h3>
+			  <span class="indent">Hoe haal ik efficiënt data uit deze API?</span>
+          </li>
+          <li class="next">
+          	  <h3>Combineren van APIs</h3>
+			  <span class="indent">Hoe combineer ik data overheen verschillende APIs?</span>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="start-access-hardcoded" class="slide" inlist="" rel="schema:hasPart" resource="#start-access-hardcoded">
+      <h2 property="schema:name">Queries als oplossing</h2>
+      <em>SPARQL, GraphQL, ...</em>
+      <ul>
+          <li class="next">
+          	  <h3>Declaratief</h3>
+			  <span class="indent">Queries verbergen complexiteit rond bevraging</span>
+          </li>
+          <li class="next">
+          	  <h3>Herbruikbaar</h3>
+			  <span class="indent">Queries hangen niet vast aan één bepaalde API</span>
+          </li>
+          <li class="next">
+          	  <h3>Generieke, herbruikbare <em>query engines</em></h3>
+			  <span class="indent">Query engines bevatten alle complexiteit om queries op te lossen</span>
+          </li>
+      </ul>
     </section>
 	
     <section id="index" class="slide index" inlist="" rel="schema:hasPart" resource="#index">
       <ul>
-        <li><a href="#index-a">TODO</a></li>
-		<li><a href="#index-b">TODO</a></li>
+        <li><a href="#index-engine">Comunica engine</a></li>
+		<li><a href="#index-association">Comunica association</a></li>
       </ul>
     </section>
     
-    <section id="index-a" class="slide index" inlist="" rel="schema:hasPart" resource="#index-a">
+    <section id="index-engine" class="slide index" inlist="" rel="schema:hasPart" resource="#index-engine">
       <ul>
-        <li class="current"><a href="#index-a">TODO</a></li>
-		<li><a href="#index-b">TODO</a></li>
+        <li class="current"><a href="#index-engine">Comunica engine</a></li>
+		<li><a href="#index-association">Comunica association</a></li>
       </ul>
     </section>
 	
@@ -73,6 +111,20 @@
           </li>
           <li>B</li>
           <li>C</li>
+      </ul>
+    </section>
+    
+    <section id="index-association" class="slide index" inlist="" rel="schema:hasPart" resource="#index-engine">
+      <ul>
+        <li><a href="#index-engine">Comunica engine</a></li>
+		<li class="current"><a href="#index-association">Comunica association</a></li>
+      </ul>
+    </section>
+    
+    <section id="index-final" class="slide index" inlist="" rel="schema:hasPart" resource="#index-final">
+      <ul>
+        <li><a href="#index-engine">Comunica engine</a></li>
+		<li><a href="#index-association">Comunica association</a></li>
       </ul>
     </section>
 	
